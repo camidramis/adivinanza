@@ -23,7 +23,7 @@ while not adivinado and intentos < intentos_max:
     intentos += 1
 
     if intentos == intentos_max and not adivinado:
-        print(f"Lo siento, has alcanzado el número máximo de intentos. El número secreto era {numero_secreto}.")
+        print(f"Has alcanzado el número máximo de intentos. El número secreto era {numero_secreto}.")
 
     
 # Se podría hacer también con un if y un break con al condición de intentos_max.
